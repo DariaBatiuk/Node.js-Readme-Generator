@@ -4,36 +4,17 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
-	{
-		type: 'input',
-		name: 'username',
-		message: 'Your Github username',
-	},
-	{
-		type: 'input',
-		name: 'email',
-		message: 'Your email address',
-	},
-	{
-		type: 'input',
-		name: 'project',
-		message: "Your project's name",
-	},
-	{
-		type: 'input',
-		name: 'description',
-		message: 'Description of your project',
-	},
-	{
-		type: 'input',
-		name: 'licence',
-		message: 'Licence of your project',
-	},
-	{
-		type: 'input',
-		name: 'command',
-		message: 'Which command should be run to install dependancies',
-	},
+	//check this array as an example 
+	'1: MONTERO (Call Me By Your Name)',
+  '2: Peaches (feat. Daniel Caesar & Giveon)',
+  '3: Kiss Me More (feat. SZA)',
+  '4: Astronaut In The Ocean',
+  '5: Save Your Tears (with Ariana Grande) (Remix)',
+  '6. RAPSTAR',
+  '7. Levitating (feat. DaBaby)',
+  '8. Leave The Door Open',
+  '9. Botella Tras Botella',
+  '10. Fiel',
 ];
 
 // TODO: Create a function to write README file

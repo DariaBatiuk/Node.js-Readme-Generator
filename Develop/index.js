@@ -37,7 +37,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+	this.fileName = fileName;
+	this.data = data;
+}
 
 const generateReadmeFile = ({ username, email, project, description, licence, command }) =>
 `#${project} 
@@ -115,11 +118,7 @@ inquirer
       err ? console.log(err) : console.log('Successfully created readme.md!')
     );
   });
-// const readmeContent = questions(answers);
 
-//     fs.writeFile('readme.md', readmeContent, (err) =>
-//       err ? console.log(err) : console.log('Successfully created readme.md!')
-//     );
 // TODO: Create a function to initialize app
 function init() {}
 

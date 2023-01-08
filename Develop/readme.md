@@ -1,9 +1,9 @@
-# Readme creator 
+#NodeJS 
 ## Description
-superb
+Wow
 
 ## Installation
-node install
+npm install
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
@@ -19,7 +19,7 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well.
 
 ## License
-A1
+undefined
 
 ## Features
 

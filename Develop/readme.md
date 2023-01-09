@@ -1,6 +1,6 @@
-#Node.js Generator of Readme files 
+#Node.js Readme Generator 
 ## Description
-It helps to generatee professional Readme files to your projects
+It helps to generate professional readme files
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Generating readme files
 This app is used for generating professional read.me file. Include screenshots as needed.
 
 ## License
-undefined
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## How to Contribute
 

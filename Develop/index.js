@@ -41,6 +41,16 @@ const questions = [
 		name: 'test',
 		message: 'Which command should be run to test the project',
 	},
+	{
+		type: 'input',
+		name: 'usage',
+		message: 'The purpose or usage of the app',
+	},
+	{
+		type: 'input',
+		name: 'githubLink',
+		message: 'Link to your Github profile',
+	},
 ];
 
 // TODO: Create a function to write README file

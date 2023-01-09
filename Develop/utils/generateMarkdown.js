@@ -8,8 +8,6 @@ function renderLicenseBadge(license) {
 	};
 
 	return licenseLink[license]
-
-
 }
 
 // TODO: Create a function that returns the license link
@@ -21,7 +19,7 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown({ username, email, project, description, license, command, test }) {
+function generateMarkdown({ username, email, project, description, license, command, test, usage, githubLink }) {
   return `#${project} 
 ## Description
 ${description}
@@ -40,7 +38,7 @@ What are command to run the project ?
 ${command}
 
 ## Usage
-
+${usage}
 This app is used for generating professional read.me file. Include screenshots as needed.
 
 ## License
@@ -52,7 +50,15 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-Command that can be used to test this app: ${test}`;
+Command that can be used to test this app: ${test}
+
+## Questions
+
+More information about this project you can find on my Github account: ${username}
+Github link: ${githubLink}
+Also you can reach me via email ${email}
+
+`;
 
 
 }

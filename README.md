@@ -1,7 +1,8 @@
 ## Readme profile generator 
 
 ## Description
-It helps to create professional readme files
+
+This tool is designed to assist users in creating polished and effective README files for their projects. By offering a user-friendly interface and helpful prompts, it streamlines the process of creating informative and visually appealing documentation that can enhance a project's overall professionalism and appeal to potential collaborators and users. With its intuitive features and customizable options, this tool is an essential resource for developers and project managers seeking to optimize their project's presentation and documentation.
 
 ## Table of Contents
 
